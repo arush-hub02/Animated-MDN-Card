@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppons", sans-serif;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    background: linear-gradient(to right,#f77103 0%, #1a4b76 47%,#1a4b76 50%, #d5ae21 100%);
+    background-repeat: no-repeat;
+  }
+  .box {
+    position: relative;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+  }
+
+  img{
+    position: relative;
+    object-fit: cover;
+  }
+
+  #cards{
+    display: flex;
+  }
+
+  .card1 {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    min-height: 400px;
+    margin: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    border-top: 1px solid rgb(255, 255, 255, 0.75);
+    border-left: 1px solid rgb(255, 255, 255, 0.75);
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgb(0, 0, 0, 0.5);
+    transform-style: preserve-3d;
+  }
+
+  .html-logo{
+    height: 350px;
+    top: 30px;
+    left: -25px;
+    padding: 10px;
+    z-index: 1;
+  }
+
+  .card2 {
+    position: relative; 
+    background: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    min-height: 400px;
+    margin: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    border-top: 1px solid rgb(255, 255, 255, 0.75);
+    border-left: 1px solid rgb(255, 255, 255, 0.75);
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgb(0, 0, 0, 0.5);
+  }
+
+  .css-logo{
+    height: 350px;
+    top: 32px;
+    left: 20px;
+    padding: 10px;
+    z-index: 1;
+  }
+
+  .card3 {
+    position: relative; 
+    background: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    min-height: 400px;
+    margin: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    border-top: 1px solid rgb(255, 255, 255, 0.75);
+    border-left: 1px solid rgb(255, 255, 255, 0.75);
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgb(0, 0, 0, 0.5);
+  }
+
+  .js-logo{
+    height: 350px;
+    top: 32px;
+    left: 25px;
+    padding: 10px;
+    z-index: 1;
+    transform: translateZ(100px);
+  }
+
+  #cards2{
+    display: flex;
+  }
+
+  footer{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    bottom: 0;
+    color: black;
+  }

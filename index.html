@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>3D MDN CARDS</title>
+</head>
+<body>
+        <div class="box"></div>
+        <div id="cards">
+            <div class="card1">
+                <div class="details1">
+                    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img class="html-logo" src="./html.png" alt=""></a></div>
+            </div>
+            <div class="card2">
+                <div class="details2">
+                    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img class="css-logo" src="./css.png" alt=""></a></div>
+            </div>
+            <div class="card3">
+                <div class="details3">
+                    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img class="js-logo" src="./js.png" alt=""></a></div>
+            </div>
+        </div>
+        <footer>© Copyright 2023 This project belongs to Arush</footer>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g=="crossorigin="anonymous"referrerpolicy="no-referrer">
+  </script>
+  <script>
+    VanillaTilt.init(document.querySelector(".card1 "), {
+      max: 25,
+      speed: 400,
+      glare: true,
+    });
+
+    VanillaTilt.init(document.querySelector(".card2"), {
+      max: 25,
+      speed: 100,
+      glare: true,
+    });
+
+    VanillaTilt.init(document.querySelector(".card3"), {
+      max: 25,
+      speed: 100,
+      glare: true,
+    });
+  </script>    
+</body>
+</html>
